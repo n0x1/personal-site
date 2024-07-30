@@ -6,7 +6,7 @@ const Navbar = () => {
                 <a href='/' className="hover:cursor-pointer no-underline"><img className="w-16 h-16" src="../public/favicon.png"/></a>
 
                 <div className="nav">
-                 <a href='/xhere' className="hover:cursor-pointer no-underline">Portfolio</a>
+                 <a href='/portfolio' className="hover:cursor-pointer no-underline">Portfolio</a>
                  <a href='/xhere' className="hover:cursor-pointer no-underline">Contact</a>
                 </div>
                 

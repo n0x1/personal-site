@@ -3,6 +3,8 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css'
 import Home from './components/home/index.jsx';
 import Art from './components/art/index.jsx';
+import Portfolio from './components/portfolio/index'
+import Contact from './components/contact/index'
 import NotFound from './components/NotFound.jsx';
 
 const Main = () => {
@@ -11,6 +13,8 @@ const Main = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/art' element={<Art />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

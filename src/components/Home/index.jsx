@@ -7,8 +7,8 @@ function Home() {
   return (
     <>  
         <div className='overlay'>
-<Overlay />
-    </div>
+            <Overlay />
+         </div>
         
         <div>
             <Navbar />

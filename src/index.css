@@ -107,3 +107,8 @@ button:focus-visible {
       color: #8389f2;
   }
 }
+
+.bento-no-padding {
+  padding-bottom: 0 !important;
+}
+
