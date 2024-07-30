@@ -32,6 +32,19 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: 
+  linear-gradient(
+    269deg,
+    rgba(170, 239, 200, 0.2),
+    rgb(255 0 0 / 0%) 30%), 
+  linear-gradient(to right, transparent, mistyrose), 
+  linear-gradient(40deg, rgb(220, 141, 234, 0.5), transparent), 
+  linear-gradient(280deg, rgba(255, 164, 164, 0.2), rgba(172, 54, 54, 0.5)), 
+  url("background.jpeg");
+  
+  background-size: cover; /* Make the image cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating of the image */
 }
 
 h1 {
@@ -58,15 +71,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+.stdGray {
+  background-color: rgba(25,25,25,0.5);
 }
+
+.darkGray {
+  background-color: rgba(5,5,5,0.5);
+}
+
+
