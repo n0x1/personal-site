@@ -2,8 +2,15 @@ import React from "react";
 
 const Navbar = () => {
     return(
-        <div className="fixed w-dvw navbar top-0 px-400">
-            <h1 className="hover:cursor-pointer"><a href='/' className="no-underline">☆</a></h1>
+        <div className="fixed flex w-dvw navbar top-0 py-0.5">
+                <a href='/' className="hover:cursor-pointer no-underline"><img className="w-16 h-16" src="../public/favicon.png"/></a>
+
+                <div className="nav">
+                 <a href='/xhere' className="hover:cursor-pointer no-underline">Portfolio</a>
+                 <a href='/xhere' className="hover:cursor-pointer no-underline">Contact</a>
+                </div>
+                
+
         </div>
     )
 }
