@@ -14,7 +14,8 @@ function Portfolio() {
         "Sprig: created a multi-stage roguelite game on hackclub sprig, assembling and pushing to the main repo",
         "Web OS",
         "Music (self led): piano, guitar, production",
-        "YDO ukulele: (6 hours) taught ukulele to kids from Lawrence"
+        "YDO ukulele: (6 hours) taught ukulele to kids from Lawrence",
+        "once I lock in  .  putting hard classes here . tentative goals at school r linear alg, physics c sequence, ML/ related CS ",
     ];
 
     return (

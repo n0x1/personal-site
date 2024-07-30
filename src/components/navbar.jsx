@@ -7,7 +7,7 @@ const Navbar = () => {
 
                 <div className="nav">
                  <a href='/portfolio' className="hover:cursor-pointer no-underline">Portfolio</a>
-                 <a href='/xhere' className="hover:cursor-pointer no-underline">Contact</a>
+                 <a href='/contact' className="hover:cursor-pointer no-underline">Contact</a>
                 </div>
                 
 

@@ -5,10 +5,12 @@ import Overlay from '../Overlay.jsx';
 
 function Contact() {
     const contactText = [
-        ["Instagram", "@cammanzo"],
+        ["Instagram", <a href="https://www.instagram.com/cammanzo/">@cammanzo</a>],
         ["Email", <a href="mailto:ctmanzo3@icloud.com">ctmanzo3@icloud.com</a>],
         ["Slack", "noxi"],
-        ["Github", "npxi"]
+        ["Github", <a href="https://github.com/n0x1">n0x1</a>],
+        ["Steam", <a href="https://steamcommunity.com/id/noxisa">noxi</a>],
+        ["myspace", "placeholdeer"]
     ];
 
     return (
