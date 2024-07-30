@@ -3,7 +3,7 @@ import Bento from '../bento.jsx';
 import Navbar from '../navbar.jsx';
 import Overlay from '../Overlay.jsx';
 
-function Home() {
+export default function Home() {
   return (
     <>  
         <div className='overlay'>
@@ -32,6 +32,6 @@ function Home() {
   );
 }
 
-export default Home;
+
 
 // make them not colors, but background images for each header
