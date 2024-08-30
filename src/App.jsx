@@ -2,11 +2,11 @@ import React, { lazy, Suspense } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css'
 
-const Home = lazy(() => import('components/home/index.jsx'));
-const Art = lazy(() => import('components/art/index.jsx'));
-const Portfolio = lazy(() => import('components/portfolio/index.jsx'));
-const Contact = lazy(() => import('components/contact/index.jsx'));
-const Fashion = lazy(() => import('components/fashion/index.jsx'));
+const Home = lazy(() => import('components/home/'));
+const Art = lazy(() => import('components/art/'));
+const Portfolio = lazy(() => import('components/portfolio/'));
+const Contact = lazy(() => import('components/contact/'));
+const Fashion = lazy(() => import('components/fashion/'));
 const NotFound = lazy(() => import('components/NotFound.jsx'));
 
 const Main = () => {
