@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css'
 
-const Home = lazy(() => import('components/home/'));
+const Home = lazy(() => import('components/Home/'));
 const Art = lazy(() => import('components/art/'));
 const Portfolio = lazy(() => import('components/portfolio/'));
 const Contact = lazy(() => import('components/contact/'));
